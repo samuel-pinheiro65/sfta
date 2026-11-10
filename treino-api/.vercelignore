@@ -1,0 +1,12 @@
+.npm-cache
+.local
+.env*
+dist
+*.pdf
+*.pem
+*.key
+*.p12
+*.pfx
+programa*.json
+*backup*.json
+backups/

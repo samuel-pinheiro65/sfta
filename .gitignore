@@ -1,0 +1,34 @@
+# Dados pessoais, exportações e credenciais
+.local/
+.vercel/
+.env*
+!/.env.example
+!/treino-web/.env.example
+!/treino-api/.env.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.pdf
+*.csv
+*.xlsx
+*.sql.gz
+*.dump
+backups/
+
+# JSONs pessoais podem ter qualquer nome. Permita somente arquivos de configuração conhecidos.
+*.json
+!/treino-web/package.json
+!/treino-web/package-lock.json
+!/treino-web/tsconfig.json
+!/treino-web/vercel.json
+!/treino-api/package.json
+!/treino-api/package-lock.json
+!/treino-api/tsconfig.json
+
+node_modules/
+.npm-cache/
+dist/
+coverage/
+*.log
